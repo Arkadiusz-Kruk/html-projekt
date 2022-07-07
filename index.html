@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team-Project-EventBooster-Grupa-4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+
+
+
+
+
+
+<body class="dark-theme">
+<!-- HEADER -->
+    
+    <div class="img-container">
+        <div class="logo-background"></div>
+        <a class="logo" href="./index.html">
+            <img src="./images/svg/logo.svg" alt="site logo" />
+        </a>
+    
+        <section class="wrapper-hero container">
+            <h1 class="hero-title">
+                <b>F<span>I</span>ND<span> BEST</span> <span>EV</span>EN<span>TS</span> <span>AR</span>OU<span>ND </span>THE
+                    <span>WO</span>R<span>LD</span></b>
+            </h1>
+    
+    
+            <!-- FORMS -->
+            <div class="forms">
+                <form class="search-form" name="signup_form">
+                    <label class="label-search-form">
+                        <input class="form-field symbol-close" type="search" name="search" placeholder="Start searching" />
+    
+                        <svg class="search__svg">
+                            <use class="search__icon" href="./images/svg/search.svg#search-icon" opacity="1"></use>
+                        </svg>
+                        <svg class="search__svg">
+                            <use class="clear-search__icon" href="./images/svg/search.svg#clear-search" opacity="0"></use>
+                        </svg>
+                    </label>
+                </form>
+                <div class="countries-dropdown__wrapper">
+                    <div id="dropdown" class="dropdown" data-dropdown>
+                        <span id="dropdown__title" class="dropdown__title" data-country-id="default">
+                            Choose country</span>
+                        <svg class="dropdown__svg">
+                            <use class="dropdown__icon" href="./images/svg/search.svg#country-search"></use>
+                        </svg>
+                    </div>
+                    <ul class="dropdown__list visually-hidden"></ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!-- END OF HEADER -->
+
+
+
+
+
+
+
+
+<!-- MAIN -->
+    
+    <main class="background dark-theme">
+
+<section class="cards">
+    <div class="container cards-container">
+        <div class="preloader-dark-bg" id="preloader">
+            <div id="loader"></div>
+        </div>
+        <ul class="cards__list"></ul>
+    </div>
+</section>
+
+<!-- PAGINATION -->
+
+<div class="lightbox js-lightbox"></div>
+
+<!-- END OF PAGINATION -->
+
+    
+  
+    </main>
+
+<!-- END OF MAIN -->
+
+
+<!-- FOOTER -->
+   
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-wrapper__content">
+            <p>© 2022 | All Rights Reserved | Developed with 💖 by GoIT Students</p>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- END OF FOOTER -->
+
+<!-- MODAL -->
+
+    <include src="./partials/modal.html"></include>
+</body>
+
+<!-- END OF MODAL -->
+
+<div class="lightbox js-lightbox"></div>
+
+
+</html>
